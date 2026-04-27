@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>CV - Irdhan</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            gap: 25px;
+        }
+
+        .header img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        h2 {
+            margin-top: 30px;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+        }
+
+        .info {
+            margin-top: 5px;
+            color: #555;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        .btn-print {
+            margin-top: 30px;
+            display: inline-block;
+            padding: 10px 20px;
+            background: #333;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .btn-print:hover {
+            background: #555;
+        }
+
+        @media print {
+            .btn-print {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <div class="header">
+        <img src="profil.jpg" alt="Foto">
+        <div>
+            <h1>Muhammad Irdhan Nur Faudzan</h1>
+            <div class="info">Mahasiswa Sistem Informasi</div>
+            <div class="info">Email: isi@email.com</div>
+            <div class="info">No HP: 08xxxxxxxxxx</div>
+        </div>
+    </div>
+
+    <h2>Profil</h2>
+    <p>
+        Mahasiswa Sistem Informasi yang memiliki minat di bidang Web Development dan Data Analysis.
+        Aktif dalam kegiatan akademik dan non-akademik, khususnya di bidang olahraga sepak bola dan futsal.
+        Memiliki kemampuan kerja sama tim, disiplin, dan tanggung jawab.
+    </p>
+
+    <h2>Pendidikan</h2>
+    <ul>
+        <li>S1 Sistem Informasi - (Nama Kampus)</li>
+    </ul>
+
+    <h2>Skills</h2>
+    <ul>
+        <li>HTML, CSS, Bootstrap</li>
+        <li>PHP & MySQL</li>
+        <li>Git & GitHub</li>
+        <li>Data Analysis (Basic)</li>
+    </ul>
+
+    <h2>Pengalaman</h2>
+    <ul>
+        <li>Arema FC – Piala Soeratin U-17 East Java (Top 12)</li>
+        <li>Mini Project Visualisasi Data</li>
+        <li>Aktif dalam kegiatan Futsal Kampus</li>
+    </ul>
+
+    <h2>Prestasi</h2>
+    <ul>
+        <li>Juara 1 Liga Futsal AFKAB U-20 (2024)</li>
+        <li>Champion PKT Cup (2024)</li>
+        <li>Champion U17 Piala Soeratin Kaltim (2023)</li>
+    </ul>
+
+    <a href="#" onclick="window.print()" class="btn-print">Download / Print PDF</a>
+
+</div>
+
+</body>
+</html>
